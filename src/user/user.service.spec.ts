@@ -91,7 +91,6 @@ describe('UserService', () => {
     });
   });
 
-  // ✅ deleteUser
   describe('deleteUser', () => {
     it('should delete an existing user', () => {
       const user = service.createUser(mockUser);
